@@ -1,0 +1,9 @@
+bond0
+DEVICE=bond0
+IPADDR=172.16.7.12
+NETMASK=255.255.255.0
+ONBOOT=yes
+BOOTPROTO=none
+USERCTL=no
+NM_CONTROLLED=no
+BONDING_OPTS="mode=active-backup miimon=100"
