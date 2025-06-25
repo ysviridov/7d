@@ -1,0 +1,9 @@
+bond 0 - 172.16.7.12
+eth2 - master = bond0, slave=yes
+eth3 - master = bond0, slave=yes
+
+bond 1 - 172.16.5.12
+eth0 - master = bond1, slave=no
+eth6 - master = bond1, slave=yes
+
+eth1 - 172.16.6.12 (single int!)
